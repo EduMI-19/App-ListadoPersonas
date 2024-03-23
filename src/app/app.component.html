@@ -1,0 +1,14 @@
+<div *ngIf="!isAutenticado()" class="text-center mt-5">
+  <h1><a routerLink="/login">Welcome</a></h1>
+</div>
+<div *ngIf="isAutenticado()" class="d-flex justify-content-end">
+  <div class="contex-out" [hidden]="!loggingService.button">
+    <a class="salir d-flex justify-content-around" (click)="salir()">
+      <i class="bi bi-box-arrow-left"></i><span class="font-weight-bold">Log out</span>
+    </a>
+  </div>
+</div>
+<div *ngIf="isAutenticado()" class="box" id="heading">
+  <h1 class="text-center mt-5">{{ loggingService.title }}</h1>
+</div>
+<router-outlet></router-outlet>

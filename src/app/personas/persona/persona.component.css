@@ -1,0 +1,8 @@
+.div-person{
+    display: flex;
+    align-items: center;
+}
+.button{
+    color: white;
+    margin: 0px 0px 0px 10px;
+}
