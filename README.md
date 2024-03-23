@@ -1,27 +1,48 @@
-# ListadoPersonas
+# Descripción de la Aplicación
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+La aplicación se ha construido con Angular y Firebase, haciendo uso de las funcionalidades de Firebase Realtime Database para almacenar datos en tiempo real y JWT (JSON Web Tokens) para autenticación de usuarios. Además, incorpora estilos de Bootstrap para una interfaz más atractiva y es completamente responsive, adaptándose a diferentes dispositivos y tamaños de pantalla.
 
-## Development server
+## Funcionalidades Principales
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+1. **Inicio de Sesión:**
+   - La aplicación cuenta con una interfaz de inicio de sesión que permite a los usuarios autenticarse en la plataforma.
 
-## Code scaffolding
+2. **Listado de Personas:**
+   - La interfaz "Listado de Personas" muestra una tabla que visualiza las personas registradas en la aplicación.
+   - Los usuarios pueden interactuar con la lista realizando acciones como agregar, editar o eliminar personas registradas.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+3. **Interacciones con Personas:**
+   - **Agregar Persona:** Los usuarios pueden agregar nuevas personas a la lista proporcionando información como nombre, edad, dirección, etc.
+   - **Editar Persona:** Permite a los usuarios modificar los detalles de una persona existente en la lista.
+   - **Eliminar Persona:** Los usuarios pueden eliminar personas registradas de la lista, eliminando así sus datos de la base de datos.
 
-## Build
+4. **Cerrar Sesión:**
+   - Los usuarios tienen la capacidad de cerrar sesión en la aplicación para proteger su privacidad y seguridad.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tecnologías Utilizadas
 
-## Running unit tests
+- **Angular:** Utilizado para el desarrollo del frontend de la aplicación, proporcionando un marco de trabajo robusto y escalable.
+- **Firebase Realtime Database:** Sirve como base de datos en tiempo real para almacenar y sincronizar los datos de la aplicación.
+- **JWT (JSON Web Tokens):** Utilizado para la autenticación de usuarios, proporcionando un mecanismo seguro para la gestión de sesiones.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## ¿Cómo Utilizar la Aplicación?
 
-## Running end-to-end tests
+1. **Inicio de Sesión:**
+   - Ingresa tus credenciales de usuario para iniciar sesión en la aplicación.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+2. **Listado de Personas:**
+   - Explora la lista de personas registradas y realiza las acciones disponibles (agregar, editar, eliminar).
 
-## Further help
+3. **Agregar:**
+   - Para agregar una nueva persona, selecciona el botón "Nueva Persona" y completa el formulario con los detalles correspondientes.
+   
+4. **Editar Persona:**
+   - Para editar una persona existente, haz clic en la opción de edición en la tabla "Listado de Personas".
+    
+5. **Eliminar Persona:**
+   - Para eliminar una persona, selecciona la opción de eliminación correspondiente en la tabla "Listado de Personas".
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+6. **Cerrar Sesión:**
+   - Finaliza tu sesión en la aplicación para proteger tu cuenta.
+
+La aplicación ofrece una experiencia intuitiva y fácil de usar para la gestión de personas, aprovechando las capacidades de Angular y Firebase para garantizar un rendimiento óptimo y una seguridad robusta.
