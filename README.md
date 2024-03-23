@@ -1,4 +1,5 @@
 # Descripción de la Aplicación
+
 - **Ingrese a la aplicacion:** 👉 [AppListadoPersonas](https://listado-personas-63665.web.app/login)
   
 La aplicación se ha construido con Angular y Firebase, haciendo uso de las funcionalidades de Firebase Realtime Database para almacenar datos en tiempo real y JWT (JSON Web Tokens) para autenticación de usuarios. Además, incorpora estilos de Bootstrap para una interfaz más atractiva y es completamente responsive, adaptándose a diferentes dispositivos y tamaños de pantalla.
