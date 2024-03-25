@@ -59,7 +59,7 @@ export class FormularioComponent implements OnInit{
     this.router.navigate(['personas']);
   }
   close(){
-    this.router.navigate(['/']);
+    this.router.navigate(['personas']);
   }
   ocultarBotonEditar(): boolean {
     return this.loggingService.getMostrarBotonEditar();
