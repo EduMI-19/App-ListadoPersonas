@@ -1,14 +1,21 @@
-<div *ngIf="!isAutenticado()" class="text-center mt-5">
-  <h1><a routerLink="/login">Welcome</a></h1>
+<div *ngIf="!isAutenticado()" class="text-contenedor no-padding container-fluid text-center">
+  <div class="no-padding container d-flex justify-content-center">
+    <h1 class="text-title"><a routerLink="/login">Welcome</a></h1>
+  </div>
+  <div style="height: 180px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.28,110.05 C193.28,188.98 333.23,13.33 500.84,113.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
 </div>
 <div *ngIf="isAutenticado()" class="d-flex justify-content-end">
   <div class="contex-out" [hidden]="!loggingService.button">
-    <a class="salir d-flex justify-content-around" (click)="salir()">
-      <i class="bi bi-box-arrow-left"></i><span class="font-weight-bold">Log out</span>
+    <a class="salir d-flex justify-content-around align-items-center" (click)="salir()">
+      <i class="bi bi-box-arrow-left"></i>
+      <span class="font-weight-bold d-none d-md-inline ms-2">Log out</span>
     </a>
-  </div>
+  </div>  
 </div>
-<div *ngIf="isAutenticado()" class="box" id="heading">
-  <h1 class="text-center mt-5">{{ loggingService.title }}</h1>
+<div *ngIf="isAutenticado()" class="text-contenedor no-padding container-fluid text-center" id="heading">
+  <div class="no-padding container d-flex justify-content-center">
+    <h1 class="text-title">{{ loggingService.title }}</h1>
+  </div>
+  <div style="height: 180px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.28,110.05 C193.28,188.98 333.23,13.33 500.84,113.98 L500.00,150.00 L0.00,150.00 Z" style="stroke: none; fill: rgb(255, 255, 255);"></path></svg></div>
 </div>
 <router-outlet></router-outlet>

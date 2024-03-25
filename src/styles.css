@@ -1,105 +1,44 @@
-/* You can add global styles to this file, and also import other style files 
-html {
-  background-color: #85c2f4;
-  min-height: 1000px;
-  font-family: 'helvetica neue';
-  background: url(./assets/bg-pattern.png), #2196F3;
-  background: url(./assets/bg-pattern.png), -webkit-gradient(linear, right top, left top, from(#2196F3), to(#009688));
-  background: url(./assets/bg-pattern.png), linear-gradient(to left, #2196F3, #009688)
-}
-  
-h1 {
-  color: #fff;
-  padding: 10px;
+.text-contenedor{
+  background: linear-gradient(270deg, #002568, #0d6efd, #00f1ff);
+  color: #ffffff;
+  padding: 0;
+  border: 0;
 }
 
-.box {
-  max-width: 400px;
-  margin: 50px auto;
-  background: white;
-  border-radius: 5px;
-  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
-}
-  
-#heading {
-  background-color: #3F51B5;
-  text-align: center;
-}
-  
-.item {
-  min-height: 70px;
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid #F1F1F1;
-}
-  
-.item:last-child {
-  border-bottom: 0;
-}
-  
-  
-input[type="checkbox"] {
-  margin: 20px;
-}
-  
-p {
-  margin: 0;
-  padding: 20px;
-  font-size: 20px;
-  font-weight: 200;
-  color: #00204a;
+div.container-fluid.no-padding { padding: 0;}
+
+.text-title{
+  position: absolute;
+  top: 45px;
 }
 
-.centrado{
-  text-align: center;
-}
-  
-form {
-  text-align: center;
-  margin-left: 20px;
-}
-  
-button {
-  min-height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border-color: transparent;
-  background-color: #3F51B5;
-  color: #fff;
-  font-size: 30px;
-  padding-bottom: 6px;
-  border-width: 0;
+.login{
+  background: linear-gradient(355deg, #002568, #0d6efd, #00f1ff);
+  color: white;
 }
 
-.buttonRed {
-  min-height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  border-color: transparent;
-  background-color: red;
-  color: #fff;
-  font-size: 30px;
-  padding-bottom: 6px;
-  border-width: 0;
+.btn.button{
+  background: #ffffff;
 }
-  
-input[type="text"] {
-  text-align: center;
-  height: 60px;
-  top: 10px;
-  border: none;
+
+.btn.button:hover{
+  background: #0d7dfd;
+}
+
+.input.form-control{
+  color: white;
   background: transparent;
-  font-size: 20px;
-  font-weight: 200;
-  width: 40%;
 }
-  
-input[type="text"]:focus {
-  outline: none;
-  box-shadow: inset 0 -3px 0 0 #3F51B5;
+
+.salir{
+  cursor: pointer;
+  font-size: 1.1rem;
 }
-  
-::placeholder {
-  color: grey;
-  opacity: 1;
-}  */
+
+.contex-out{
+  position: absolute;
+  background-color: #ffffff;
+  border-radius: 25px;
+  padding: 5px 10px;
+  margin: 10px;
+}
