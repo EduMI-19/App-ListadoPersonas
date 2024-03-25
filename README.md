@@ -2,7 +2,7 @@
 
 - **Ingrese a la aplicacion:** 👉 [AppListadoPersonas](https://listado-personas-63665.web.app/login)
   
-  - La aplicación se ha construido con Angular y Firebase, haciendo uso de las funcionalidades de Firebase Realtime Database para almacenar datos en tiempo real y JWT (JSON Web Tokens) para autenticación de usuarios. Además, incorpora estilos de Bootstrap para una interfaz más atractiva y es completamente responsive, adaptándose a diferentes dispositivos y tamaños de pantalla.
+  - La aplicación web se ha construido con Angular y Firebase, haciendo uso de las funcionalidades de Firebase Realtime Database para almacenar datos en tiempo real y JWT (JSON Web Tokens) para autenticación de usuarios. Además, incorpora estilos de Bootstrap para una interfaz más atractiva y es completamente responsive, adaptándose a diferentes dispositivos y tamaños de pantalla.
 
 ## Funcionalidades Principales
 
@@ -39,10 +39,10 @@
    - Para agregar una nueva persona, selecciona el botón "Nueva Persona" y completa el formulario con los detalles correspondientes.
    
 4. **Editar Persona:**
-   - Para editar una persona existente, haz clic en la opción de edición en la tabla "Listado de Personas".
+   - Para editar una persona existente, haz clic en el icono de edición en la tabla "Listado de Personas".
     
 5. **Eliminar Persona:**
-   - Para eliminar una persona, selecciona la opción de eliminación correspondiente en la tabla "Listado de Personas".
+   - Para eliminar una persona, selecciona el icono de eliminación correspondiente en la tabla "Listado de Personas".
 
 6. **Cerrar Sesión:**
    - Finaliza tu sesión en la aplicación para proteger tu cuenta.
